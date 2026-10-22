@@ -28,4 +28,4 @@ with tabs[2]:
 
 # Tab 4: 
 with tabs[3]:
-    print("Jasper Lin")
+    st.write("Jasper Lin")
