@@ -9,7 +9,7 @@ st.title("Microsoft Stock Data Dashboard by Jasper Lin")
 df = pd.read_csv("msft.csv")
 
 # Set up the 4 tabs on the Dashboard
-tabs = st.tabs(["📋 Raw Data", "📈 Price Chart", "📊 Volume Chart, "Print Name Tab"])
+tabs = st.tabs(["📋 Raw Data", "📈 Price Chart", "📊 Volume Chart", "Print Name Tab"])
 
 # Tab 1: Raw Data
 with tabs[0]:
